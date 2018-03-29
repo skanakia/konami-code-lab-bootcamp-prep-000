@@ -4,3 +4,21 @@ function init() {
   // Write your JavaScript code inside the init() function
 
 }
+document.body.addEventListener("keydown", function(e) { 
+  const key = (e.keyCode || e.which || e.location)
+  console.log(code)
+  console.log("KeyPress: " + parseInt(key))
+  
+  if (key === code[index]) {
+    console.log("Index: " + index)
+    
+    if (index === (code.length - 1)) {
+      window.alert("Hurray!")
+      index = 0
+    }
+    index++
+  } else {
+    index = 0
+  }
+}
+)
