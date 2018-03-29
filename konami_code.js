@@ -12,7 +12,7 @@ function init() {
       console.log("Index: " + index)
     
       if (index === (code.length - 1)) {
-        window.alert("Hurray!")
+        alert("Hurray!")
         index = 0
       }
      index++
