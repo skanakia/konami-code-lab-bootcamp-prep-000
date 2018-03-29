@@ -11,7 +11,7 @@ function init() {
     if (key === code[index]) {
       console.log("Index: " + index)
     
-      if (index === (code.length - 1)) {
+      if (index === (code.length)) {
         alert("Hurray!")
         index = 0
       }
