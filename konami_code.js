@@ -9,13 +9,13 @@ function init() {
     console.log("KeyPress: " + key)
   
     if (key === code[index]) {
+      index++
       console.log("Index: " + index)
     
       if (index === (code.length)) {
         alert("Hurray!")
         index = 0
       }
-     index++
     } else {
      index = 0
     }
